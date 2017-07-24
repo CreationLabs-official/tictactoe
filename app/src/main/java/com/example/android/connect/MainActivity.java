@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 gameActive=false;
                 String winner = "Red";
                 if (gamestate[winning[0]] == 0)
-                    winner = "yellow";
+                    winner = "Yellow";
                 TextView winmsg = (TextView) findViewById(R.id.winmsg);
                 winmsg.setText(winner + " has won!!");
                 LinearLayout layout = (LinearLayout) findViewById(R.id.playagainlayout);
